@@ -27,7 +27,7 @@ public class UserServiceImpl implements IUserService {
 		int max = userMapper.getMaxId(null);
 		user.setId(max+1);
 		userMapper.insert(user);
-		int s = 1/0;
+//		int s = 1/0;
 		return 0;
 	}
 

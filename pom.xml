@@ -217,6 +217,13 @@
 	    <artifactId>xbean-spring</artifactId>
 	    <version>4.5</version>
 	</dependency>
+	
+	<!-- pagehelper分页插件 -->
+	<dependency>
+	    <groupId>com.github.pagehelper</groupId>
+	    <artifactId>pagehelper</artifactId>
+	    <version>5.1.2</version>
+	</dependency>
     
   </dependencies>
   <build>
